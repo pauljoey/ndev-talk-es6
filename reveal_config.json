@@ -1,0 +1,24 @@
+{
+  "main": "js/reveal.js",
+  "meta": {
+    "plugin/notes/notes.js": {
+      "globals": {
+        "Reveal": "../../js/reveal.js"
+      }
+    },
+    "plugin/markdown/markdown.js": {
+    	"globals": {
+        "Reveal": "../../js/reveal.js",
+        "marked": "./marked.js"
+      }
+    },
+    "plugin/highlight/highlight.js": {
+    	"format": "global",
+    	"globals": {
+        "Reveal": "../../js/reveal.js",
+        "hljs": "hljs"
+      }
+    }
+  },
+  "format": "cjs"
+}
